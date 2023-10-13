@@ -1,10 +1,10 @@
 @import "/base.css";
 
-#gallery .page-heading {
+/*#gallery .page-heading {
     background: url('/media/page-banners/gallery.png');
     background-size: cover;
     background-position: top;
-}
+}*/
 
 #gallery .page-heading .page-title {
     background: var(--black);
