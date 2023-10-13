@@ -1,0 +1,191 @@
+@import "/base.css";
+
+#about .page-heading {
+  background: url('/media/page-banners/about.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#about .page-heading .page-title {
+  background: linear-gradient(135deg, var(--accent), var(--white));
+  color: var(--black);
+}
+
+#board-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+#board-header h2 {
+  width:500px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  align-self: center;
+}
+
+#board-pic {
+  width: 55%;
+  /* border-radius: 50px; */
+}
+
+.content-block {
+  width: 100vw;
+  padding: 80px var(--tight-margin);
+  text-align: left;
+}
+.content-block .question {
+  margin-bottom: 20px;
+  padding: 5px 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.content-block .answer-block {
+  display: inline-block;
+  padding-left: 60px;
+  border-left: 2px solid var(--primary);
+  margin: 10px 0 80px;
+}
+.content-block .answer-block .content {
+  display: inline-block;
+  color: var(--black);
+}
+
+.board-block {
+  width: 100vw;
+  padding: 80px var(--tight-margin);
+  border-top: 2px solid var(--black);
+  background-color: var(--accent);
+  text-align: left;
+}
+.board-block .section-heading {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.board-block .board-member {
+  min-height: 240px;
+  margin-bottom: 90px;
+  padding: 20px;
+  border: 2px solid var(--black);
+}
+.board-block .board-member .name {
+  display: inline;
+  position: relative;
+  top: -40px;
+  left: -35px;
+  padding: 10px;
+  background-color: var(--accent);
+  font-family: 'Bodoni', serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: var(--primary);
+}
+.board-block .board-member .inner {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -50px;
+}
+.board-block .board-member .inner .portrait-frame {
+  position: relative;
+  top: -30px;
+  height: 0;
+  margin-right: 20px;
+}
+.board-block .board-member .inner .portrait-frame .portrait {
+  width: 200px;
+  height: 240px;
+  outline: 10px solid var(--accent);
+}
+.portrait#ingrid {
+  background-image: url('../media/board-portraits/ingrid.jpg');
+  background-size: cover;
+  background-position: left bottom;
+}
+.portrait#christina {
+  background-image: url('../media/board-portraits/christina.png');
+  background-size: cover;
+  background-position: center bottom;
+}
+.portrait#zeki {
+  background-image: url('../media/board-portraits/zeki.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.portrait#fiona {
+  background-image: url('../media/board-portraits/fiona.JPG');
+  background-size: cover;
+  background-position: top;
+}
+.portrait#julia-ma {
+  background-image: url('../media/board-portraits/julia-ma.jpg');
+  background-size: cover;
+  background-position: top;
+}
+.portrait#julia-dang {
+  background-image: url('../media/board-portraits/julia-dang.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.portrait#ginnie {
+  background-image: url('../media/board-portraits/ginnie.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.portrait#allie {
+  background-image: url('../media/board-portraits/allie.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.board-block .board-member .inner .right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -35px;
+  min-height: 195px;
+}
+.board-block .board-member .inner .right .title {
+  margin-bottom: 10px;
+  font-family: 'Bodoni', serif;
+  font-size: 24px;
+  color: var(--black);
+}
+.board-block .board-member .inner .right .content {
+  flex-grow: 1;
+  padding-bottom: 20px;
+  line-height: 28px;
+}
+.board-block .board-member .inner .right .personal-links {
+  padding-bottom: 10px;
+}
+.board-block .board-member .inner .right .personal-links .link {
+  display: inline;
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+}
+.board-block .board-member .inner .right .personal-links .link a {
+  color: var(--primary);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.board-block .board-member .inner .right .personal-links .link a:hover {
+  color: var(--primary-lighter);
+}
+.board-block .board-member .inner .right .personal-links .divider {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  margin: -5px 5px 0;
+}
+@media screen and (max-width: 800px) {
+  .board-block .board-member .inner .portrait-frame {
+    display: none;
+  }
+}
