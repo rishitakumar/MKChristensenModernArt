@@ -1,0 +1,70 @@
+@import "/base.css";
+
+#gallery .page-heading {
+    background: url('/media/page-banners/gallery.png');
+    background-size: cover;
+    background-position: top;
+}
+
+#gallery .page-heading .page-title {
+    background: var(--black);
+    color: var(--accent);
+}
+
+.content-block {
+    width: 100vw;
+    padding: 80px var(--tight-margin);
+    background-color: var(--accent);
+    text-align: left;
+}
+
+#framing {
+    min-height: 240px;
+    margin-bottom: 80px;
+    padding: 20px;
+    border: 2px dashed var(--black);
+}
+
+#framing .section-heading {
+    display: inline;
+    position: relative;
+    top: -40px;
+    left: -35px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: var(--accent);
+    font-family: 'Bodoni', serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: var(--primary);
+}
+
+.photos {
+    padding: 10px;
+}
+
+.photos img {
+/*     max-width: 320px;
+    max-height: 215px; */
+    object-fit: cover;
+}
+
+.upper-crop {
+    /* object-position: 0px -75px; */
+}
+
+#framing .photos img:nth-child(even) {
+    margin-left: 53%;
+}
+
+#framing .photos img:first-child {
+    margin-top: -30px;
+}
+
+#framing .photos img {
+    min-width: 30%;
+    max-width: 45%;
+    margin-top: -40px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 0 var(--primary);
+}
