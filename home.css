@@ -11,7 +11,6 @@ background-color: #cccccc;
   width: 100vw;
   min-height: calc(100vh - 80px);
   padding: 60px;
-  /* background-color: var(--accent);*/
   transition: background 2s;
   text-align: center;
 }
@@ -22,18 +21,7 @@ background-color: #cccccc;
   align-self: flex-start;
   width: calc(100vw - 2 * 60px);
 }
-/* .home-banner .corner {
-  width: 100px;
-  height: 100px;
-}
-.home-banner .top-left-corner {
-  border-top: 2px solid var(--soft);
-  border-left: 2px solid var(--soft);
-}
-.home-banner .top-right-corner {
-  border-top: 2px solid var(--soft);
-  border-right: 2px solid var(--soft);
-} */
+
 .home-banner .bottom-frame {
   display: flex;
   justify-content: space-between;
@@ -41,14 +29,7 @@ background-color: #cccccc;
   align-self: flex-end;
   width: calc(100vw - 2 * 60px);
 }
-/* .home-banner .bottom-left-corner {
-  border-left: 2px solid var(--soft);
-  border-bottom: 2px solid var(--soft);
-}
-.home-banner .bottom-right-corner {
-  border-right: 2px solid var(--soft);
-  border-bottom: 2px solid var(--soft);
-} */
+
 .home-banner .inner {
   display: flex;
   flex-direction: column;
@@ -144,98 +125,4 @@ background-color: #cccccc;
   }
 }
 
-.upcoming-event-block {
-  width: 100vw;
-  padding: 80px var(--tight-margin);
-  background-image: url('/media/upcoming-event-banner.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: left;
-}
-.upcoming-event-block .section-heading {
-  color: var(--white);
-}
-.upcoming-event-block .upcoming-event {
-  display: inline-block;
-  max-width: calc(100vw - 2 * var(--tight-margin));
-  padding: 60px;
-  background: var(--white);
-  text-align: center;
-}
-.upcoming-event-block .upcoming-event .subheading {
-  text-align: center;
-  color: var(--primary);
-  margin-bottom: 20px;
-}
-.upcoming-event-block .upcoming-event .heading {
-  text-align: center;
-  color: var(--black);
-  white-space: normal;
-}
-.upcoming-event-block .upcoming-event .content {
-  padding: 0 60px;
-  margin-bottom: 20px;
-  text-align: left;
-}
 
-@media screen and (max-width: 1000px) {
-  .upcoming-event-block .upcoming-event .content {
-    padding: 0 20px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .upcoming-event-block .upcoming-event {
-    padding: 40px;
-  }
-  .upcoming-event-block .upcoming-event .content {
-    padding: 0;
-  }
-}
-
-.ig-promo-block {
-  width: 100vw;
-  padding: 80px var(--page-margin);
-  text-align: right;
-}
-.ig-promo-block .section-heading {
-  text-align: left;
-}
-.ig-promo-block .photowall {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: calc((100vw - 2 * var(--page-margin) - 80px) / 4);
-  margin-bottom: 40px;
-}
-.ig-promo-block .photowall .photo {
-  display: inline-block;
-  width: calc((100vw - 2 * var(--page-margin) - 80px) / 4);
-  height: calc((100vw - 2 * var(--page-margin) - 80px) / 4);
-  background-color: var(--accent);
-  border: 1px solid #ddd;
-  transition: border 0.1s linear;
-  cursor: pointer;
-}
-.ig-promo-block .photowall .photo:hover {
-  border: 1px solid var(--primary);
-}
-.ig-promo-block .photowall .photo1 {
-  background-image: url('/media/ig/1.png');
-  background-size: cover;
-  background-position: center;
-}
-.ig-promo-block .photowall .photo2 {
-  background-image: url('/media/ig/2.png');
-  background-size: cover;
-  background-position: center;
-}
-.ig-promo-block .photowall .photo3 {
-  background-image: url('/media/ig/3.png');
-  background-size: cover;
-  background-position: center;
-}
-.ig-promo-block .photowall .photo4 {
-  background-image: url('/media/ig/4.jpg');
-  background-size: cover;
-  background-position: center;
-}
