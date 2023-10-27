@@ -20,13 +20,7 @@ p {
   justify-content: center;
 }
 
-.topnav img { 
-            display: block; 
-            width: 10px; 
-            height: 10px; 
-            margin: auto; 
-  
-        } 
+
 
 .topnav a {
   float: left;
