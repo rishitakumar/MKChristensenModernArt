@@ -4,15 +4,30 @@ body {
   font-family: 'Courier New', monospace;
 
 }
+
 h1 {
   color: blue;
 }
+
 p {
   color: red;
 }
+
 .topnav {
   overflow: hidden;
   background-color: #330A04;
+}
+
+#topnav-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.topnav img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .topnav a {
@@ -29,12 +44,6 @@ p {
   color: black;
 }
 
- .logo {
-   margin-top: 15px;
-   margin-left: 10px;
-   height: 100px;
-   width: 100px;
-}
 
 .mySlides {display: none;}
 img {vertical-align: middle;}
