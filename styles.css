@@ -20,6 +20,11 @@ p {
   justify-content: center;
 }
 
+MKChristensenModernArt-Website-Logo.gif {
+  width: 200px;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
 
 .topnav a {
   float: left;
