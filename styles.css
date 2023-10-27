@@ -31,4 +31,6 @@ p {
  .logo {
    margin-top: 15px;
    margin-left: 10px;
+   height: 10%;
+   width: 10%;
 }
