@@ -16,6 +16,8 @@ p {
 .topnav {
   overflow: hidden;
   background-color: #330A04;
+  align-items: center;
+  justify-content: center;
 }
 
 
