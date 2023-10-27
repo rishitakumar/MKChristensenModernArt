@@ -28,10 +28,8 @@ p {
   color: black;
 }
 
- .logo-image{
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
+ .logo {
+    position: absolute;
+   margin-top: 15px;
+   margin-left: 10px;
 }
