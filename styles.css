@@ -1,5 +1,7 @@
 body {
   background-color: powderblue;
+    margin: 0%;
+
 }
 h1 {
   color: blue;
@@ -10,7 +12,6 @@ p {
 .topnav {
   overflow: hidden;
   background-color: #330A04;
-  margin: 0%;
 }
 
 .topnav a {
