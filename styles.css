@@ -151,3 +151,10 @@ footer {
   background-color: #CAB9A1;
   color: #330A04;
 }
+
+.square {
+  height: 500px;
+  width: 500px;
+  background-color: #BFD5D2;
+  float: left;
+}
