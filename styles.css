@@ -50,7 +50,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 50%;
   position: relative;
-  margin: auto;
+  margin-top: 100px;
   float: right; 
 }
 
@@ -74,9 +74,6 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-.active {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
