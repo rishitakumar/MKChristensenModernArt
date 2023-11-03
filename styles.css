@@ -18,7 +18,7 @@ p {
 .topnav {
   overflow: hidden;
   background-color: #330A04;
-  position: fixed; 
+  position: relative; 
 }
 
 .topnav a {
