@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: black;
 }
 
 p {
@@ -55,7 +55,8 @@ img {vertical-align: middle;}
   max-width: 50%;
   position: relative;
   margin-top: 50px;
-  float: right; 
+  float: right;
+  border: 5px solid #000;
 }
 
 /* Caption text */
