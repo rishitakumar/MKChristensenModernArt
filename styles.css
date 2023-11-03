@@ -121,9 +121,8 @@ div.desc {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
-  float: right;
   margin: 5px;
-  clear: right;
+  clear: left;
 }
 
 @media only screen and (max-width: 700px) {
@@ -143,4 +142,11 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: #CAB9A1;
+  color: #330A04;
 }
