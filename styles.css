@@ -54,7 +54,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 50%;
+  max-width: 45%;
   position: relative;
   float: right;
   border: 10px solid #000;
@@ -150,12 +150,12 @@ footer {
   background-color: #CAB9A1;
   color: #330A04;
   float: center;
-  margin-top: 500px;
+  margin-top: 1000px;
 }
 
 .square {
-  height: 500px;
-  width: 500px;
+  height: 800px;
+  width: 800px;
   background-color: #BFD5D2;
   float: left;
 }
