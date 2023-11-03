@@ -54,7 +54,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 45%;
+  max-width: 48%;
   position: relative;
   float: right;
   border: 10px solid #000;
@@ -154,7 +154,7 @@ footer {
 }
 
 .square {
-  height: 800px;
+  height: 60px;
   width: 800px;
   background-color: #BFD5D2;
   float: left;
