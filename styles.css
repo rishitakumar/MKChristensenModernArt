@@ -150,6 +150,7 @@ footer {
   padding: 3px;
   background-color: #CAB9A1;
   color: #330A04;
+  float: center;
 }
 
 .square {
