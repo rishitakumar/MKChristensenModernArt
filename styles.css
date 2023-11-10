@@ -58,6 +58,8 @@ img {vertical-align: middle;}
   position: relative;
   float: right;
   border: 10px solid #000;
+  outline: 10px solid white;
+  outline-offset: -20px;
 }
 
 /* Caption text */
