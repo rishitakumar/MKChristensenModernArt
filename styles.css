@@ -153,6 +153,20 @@ body {
   }
 }
 
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: white;
+  color: #131a37;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
 footer {
   text-align: center;
   padding: 3px;
