@@ -9,10 +9,12 @@ h1 {
   text-align: center;
   color: black;
   float: center;
+  font-family: Georgia, serif;
 }
 
 p {
   color: #330A04;
+  font-family: Georgia, serif;
 }
 
 .topnav {
@@ -174,6 +176,7 @@ footer {
   color: #330A04;
   float: center;
   margin-top: 800px;
+  font-family: Georgia, serif;
 }
 
 .square {
