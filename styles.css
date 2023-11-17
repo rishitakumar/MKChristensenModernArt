@@ -21,6 +21,7 @@ p {
   overflow: hidden;
   background-color: #330A04;
   position: relative; 
+  font-family: Georgia, serif;
 }
 
 .topnav a {
