@@ -59,9 +59,7 @@ img {vertical-align: middle;}
   max-width: 48%;
   position: relative;
   float: right;
-  border: 10px solid #000;
-  outline: 10px solid white;
-  outline-offset: -20px;
+  border: 20px solid white;
 }
 
 /* Caption text */
