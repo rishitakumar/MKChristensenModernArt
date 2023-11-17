@@ -209,14 +209,14 @@ footer {
   font-family: Georgia, serif;
 }
 
-
 .text-block {
   position: absolute;
   float: left;
   background-color: #BFD5D2;
-  color: #f2f2f2;
+  color: #330A04;
   padding-left: 20px;
   padding-right: 20px;
   font-family: Georgia, serif;
   max-width: 48%;
+  font-size: x-large;
 }
