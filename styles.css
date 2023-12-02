@@ -210,11 +210,18 @@ input[type=submit]:hover {
   margin-top: 800px;
   font-family: Georgia, serif;
 } */
+
 .footer-main {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
+}
+@media (max-width: 600px) {
+    .footer-about, .footer-services, .footer-contact, .footer-follow {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 .text-block {
   position: absolute;
