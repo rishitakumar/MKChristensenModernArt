@@ -135,6 +135,7 @@ body {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+  horizontal-align: middle;
   width: 100%;
 }
 
