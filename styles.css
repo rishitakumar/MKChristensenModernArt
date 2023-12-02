@@ -231,6 +231,7 @@ input[type=submit]:hover {
   color: #330A04;
   padding-left: 20px;
   padding-right: 20px;
+  height:500px;
   font-family: Georgia, serif;
   max-width: 48%;
   font-size: x-large;
