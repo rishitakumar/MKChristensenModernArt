@@ -201,7 +201,7 @@ input[type=submit]:hover {
   font-family: Georgia, serif;
 }
 
-footer {
+/* footer {
   text-align: center;
   padding: 3px;
   background-color: white;
@@ -209,6 +209,12 @@ footer {
   float: center;
   margin-top: 800px;
   font-family: Georgia, serif;
+} */
+.footer-main {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 .text-block {
