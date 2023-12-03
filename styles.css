@@ -250,9 +250,17 @@ input[type=submit]:hover {
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content .dropbtn {
   display: block;
 }
 .navbar a:hover, .dropdown:hover {
   background-color: red;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
