@@ -225,3 +225,11 @@ input[type=submit]:hover {
   font-size: x-large;
   line-height: 30px;
 }
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
