@@ -62,7 +62,11 @@ img {vertical-align: middle;}
   float: right;
   border: 20px solid white;
 }
-
+@media screen and (max-width: 600px) {
+  .mySlides {
+    height: 200px;
+  }
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
