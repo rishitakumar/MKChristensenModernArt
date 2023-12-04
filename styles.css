@@ -142,6 +142,7 @@ body {
   vertical-align: middle;
   horizontal-align: middle;
   width: 100%;
+  border: 20px solid black;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
