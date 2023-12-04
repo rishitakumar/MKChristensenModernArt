@@ -250,3 +250,12 @@ input[type=submit]:hover {
     text-align: left;
   }
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
