@@ -60,7 +60,8 @@ img {vertical-align: middle;}
   max-width: 48%;
   position: relative;
   float: right;
-  border: 20px solid white;
+  outline: 20px solid white;
+  border: 20px solid black;
 }
 @media screen and (max-width: 600px) {
   .mySlides {
