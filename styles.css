@@ -250,4 +250,12 @@ input[type=submit]:hover {
     text-align: left;
   }
 }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: #330A04;
+  float: center;
+  margin-top: 800px;
+}
 
