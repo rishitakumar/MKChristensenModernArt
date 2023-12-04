@@ -250,10 +250,10 @@ input[type=submit]:hover {
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content .dropbtn {
+.dropdown:hover .dropdown-content  {
   display: block;
 }
-.navbar a:hover, .dropdown:hover {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 .dropdown .dropbtn {
