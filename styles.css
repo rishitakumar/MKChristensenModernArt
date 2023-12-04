@@ -270,3 +270,10 @@ footer{
     padding-top: 40px;
     color: #fff;
 }
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
