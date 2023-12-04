@@ -196,8 +196,8 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #b1dddf;
+  border-radius: 10px;
+  background-color: black;
   padding: 20px;
   font-family: Georgia, serif;
 }
