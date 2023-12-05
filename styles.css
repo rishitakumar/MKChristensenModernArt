@@ -11,6 +11,12 @@ h1 {
   float: center;
   font-family: Georgia, serif;
 }
+h3 {
+  text-align: center;
+  color: black;
+  float: center;
+  font-family: Georgia, serif;
+}
 
 p {
   color: #330A04;
