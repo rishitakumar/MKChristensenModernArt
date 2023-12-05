@@ -57,6 +57,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
+  top:20px;
   max-width: 48%;
   position: relative;
   float: right;
