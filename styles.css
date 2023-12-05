@@ -275,10 +275,12 @@ footer {
 }
 .fa-youtube {
   color: black;
+  position: absolute;
   left: 50px;
 }
 
 .fa-instagram {
   color: black;
+  position: absolute;
   left: 60px;
 }
