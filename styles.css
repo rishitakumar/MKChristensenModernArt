@@ -263,7 +263,7 @@ footer {
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: 50px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -278,12 +278,10 @@ footer {
   color: black;
   position: absolute;
   left: 550px;
-  font-size: 6em;
 }
 
 .fa-instagram {
   color: black;
   position: absolute;
   left: 600px;
-  font-size: 6em;
 }
