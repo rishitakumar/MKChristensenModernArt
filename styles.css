@@ -275,17 +275,15 @@ footer {
     opacity: 0.7;
 }
 .fa-youtube {
-  color: white;
-  background: #bb0000;
+  color: black;
   position: absolute;
-  left: 500px;
-  font-size: 160px;
+  left: 550px;
+  font-size: 2em;
 }
 
 .fa-instagram {
-  color: white;
-  background: #125688;
+  color: black;
   position: absolute;
-  left: 550px;
-  font-size: 160px;
+  left: 600px;
+  font-size: 2em;
 }
