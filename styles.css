@@ -211,6 +211,16 @@ input[type=submit]:hover {
 }
 
 
+/* footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: #330A04;
+  float: center;
+  margin-top: 800px;
+  font-family: Georgia, serif;
+} */
+
 .text-block {
   position: relative;
   float: left;
@@ -236,9 +246,9 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: absolute;}
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: relative;
+    position: absolute;
     right: 0;
     top: 0;
   }
