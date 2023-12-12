@@ -236,7 +236,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: absolute;}
   .topnav.responsive .icon {
     position: relative;
     right: 0;
