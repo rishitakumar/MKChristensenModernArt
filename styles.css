@@ -30,7 +30,7 @@ p {
   justify-content: center;
 }
 .topnav-centered a {
-  position: relative;
+  position: absolute;
   display: inline-block;
   width: 400px;
 left: 50%;
@@ -46,6 +46,7 @@ img {
 }
 
 .dropdown .dropbtn {
+  position: relative;
   font-size: 16px;  
   border: none;
   outline: none;
