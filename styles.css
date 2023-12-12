@@ -46,7 +46,7 @@ p {
 
 .topnav-centered a {
   float: none;
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -211,16 +211,6 @@ input[type=submit]:hover {
 }
 
 
-/* footer {
-  text-align: center;
-  padding: 3px;
-  background-color: white;
-  color: #330A04;
-  float: center;
-  margin-top: 800px;
-  font-family: Georgia, serif;
-} */
-
 .text-block {
   position: relative;
   float: left;
@@ -248,7 +238,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
