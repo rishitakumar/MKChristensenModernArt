@@ -199,7 +199,7 @@ body {
   .text-block {
     -ms-flex: 50%;
     flex: 50%;
-    max-width: 100%;
+    max-width: 50%;
   }
 }
 
