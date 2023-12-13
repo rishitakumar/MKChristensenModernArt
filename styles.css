@@ -191,7 +191,32 @@ body {
     max-width: 100%;
   }
 }
+@media screen and (max-width: 800px) {
+  .slideshow-container {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .text-block {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .slideshow-container {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .text-block {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 figure {
   border: 1px #cccccc solid;
   padding: 4px;
