@@ -112,7 +112,11 @@ img {
     height: 200px;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .text-block {
+    height: 200px;
+  }
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
