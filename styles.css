@@ -274,7 +274,7 @@ input[type=submit]:hover {
 
 
 .text-block {
-  position: absolute;
+  position: relative;
   float: left;
   background-color: #BFD5D2;
   color: #330A04;
