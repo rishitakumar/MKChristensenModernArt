@@ -112,12 +112,7 @@ img {
     height: 200px;
   }
 }
-@media screen and (max-width: 600px) {
-  .text-block {
-    position: relative;
-    width:200%;
-  }
-}
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -224,8 +219,6 @@ body {
 }
 @media screen and (max-width: 600px) {
   .text-block {
-    -ms-flex: 100%;
-    flex: 100%;
     max-width: 100%;
   }
 }
