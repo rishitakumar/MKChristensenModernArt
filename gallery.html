@@ -5,18 +5,32 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="styles.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+         body {
+           background-image: url('aboutbackground.png');
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+               }
+      </style>
 
       <div class="topnav">
+         <div style="text-align: center">
          <div class="topnav-centered">
            <a href="index.html">
             <img src="MKChristensenModernArt-Website-Logo.png"/>
          </a>
          </div>
-  
-         <a href="index.html">ABOUT</a>
-         <a href="gallery.html">GALLERY</a>
-         <a href="contact.html">CONTACT</a>
-       
+</div>
+<div class="dropdown">
+    <button class="dropbtn">☰ 
+    </button>
+    <div class="dropdown-content">
+      <a href="index.html">ABOUT</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT</a>
+    </div>
+  </div>
       </div>
    </head>
 <body>
@@ -190,12 +204,23 @@
    </figure>
   </div>
 </div>
-<footer>
-   <a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-instagram"></a>
-  <p>Contact Me At:<br>
-  <a href="mailto:mkchristensenmodernart@gmail.com">mkchristensenmodernart@gmail.com</a></p>
-</footer>
+<div class="navbar" id="myNavbar">
+    <a href="https://www.youtube.com/@MKChristensenModernArt" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/mkchristensenmodernart/" class="fa fa-instagram"></a>
+  <a href="mailto:mkchristensenmodernart@gmail.com">Click to Contact</a>
+
+</div>
+
+<script>
+   function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
    
    </body>
 </html>
