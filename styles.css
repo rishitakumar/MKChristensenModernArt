@@ -30,10 +30,9 @@ p {
   justify-content: center;
 }
 .topnav-centered a {
-  position: absolute;
+  position: relative;
   display: inline-block;
   width: 400px;
-left: 30%;
 
 }
 
