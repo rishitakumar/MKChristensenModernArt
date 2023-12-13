@@ -217,6 +217,13 @@ body {
     max-width: 100%;
   }
 }
+@media screen and (max-width: 600px) {
+  .text-block {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 figure {
   border: 1px #cccccc solid;
