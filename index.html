@@ -94,13 +94,13 @@ paint with this tenant in mind. Whether abstract or identifiable, I find underly
       </div>
    
    </div>
-<footer>
-   <a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-instagram"></a>
-  <p>Contact Me At:<br>
-  <a href="mailto:mkchristensenmodernart@gmail.com">mkchristensenmodernart@gmail.com</a></p>
-</footer>
    
+<div class="navbar" id="myNavbar">
+    <a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+  <a href="mailto:mkchristensenmodernart@gmail.com">Contact Me At: mkchristensenmodernart@gmail.com</a>
+
+</div>
 <script>
 let slideIndex = 0;
 showSlides();
@@ -116,7 +116,14 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   setTimeout(showSlides, 12000); // Change image every 12 seconds
 }
-
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
 </script>
    </body>
 </html>
