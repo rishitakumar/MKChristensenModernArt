@@ -87,7 +87,13 @@ img {
 }
 
 .mySlides {display: none;}
-img {vertical-align: middle;}
+img {
+  
+  vertical-align: middle;
+  outline: 20px solid white;
+  border: 20px solid black;
+    
+    }
 
 /* Slideshow container */
 .slideshow-container {
@@ -95,8 +101,8 @@ img {vertical-align: middle;}
   max-width: 48%;
   position: relative;
   float: right;
-  outline: 20px solid white;
-  border: 20px solid black;
+  /*outline: 20px solid white;
+  border: 20px solid black;*/
 }
 @media screen and (max-width: 600px) {
   .mySlides {
