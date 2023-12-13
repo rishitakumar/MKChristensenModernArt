@@ -278,13 +278,13 @@ input[type=submit]:hover {
   color: #330A04;
   padding-left: 20px;
   padding-right: 20px;
-  height: relative;
-    width: relative;
-
   font-family: Georgia, serif;
   max-width: 48%;
   font-size: x-large;
   line-height: 30px;
+  overflow: auto;
+  box-sizing: border-box;
+  min-width: 380px;
 }
 .topnav .icon {
   display: none;
