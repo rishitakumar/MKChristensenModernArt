@@ -306,13 +306,14 @@ input[type=submit]:hover {
 .navbar {
   overflow: hidden;
   background-color: white;  
-  position: fixed;
   bottom: 0;
   margin:0;
   width: 100%;
     text-align: center;
         display: inline-block;
   left:0;
+   position: absolute; 
+    z-index: 10;
 
 
 }
