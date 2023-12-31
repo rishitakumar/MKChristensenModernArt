@@ -309,7 +309,6 @@ input[type=submit]:hover {
 .navbar {
   overflow: hidden;
   background-color: white;  
-  position: fixed;
   width: 100%;
     text-align: center;
         display: inline-block;
