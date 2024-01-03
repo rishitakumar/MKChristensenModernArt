@@ -223,7 +223,9 @@ body {
 }
 @media screen and (max-width: 600px) {
   .navbar {
-    position: fixed;
+    position: absolute;
+    bottom: 0;
+    margin-top:20px;
   }
 }
 
