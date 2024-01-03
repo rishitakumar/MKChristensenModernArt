@@ -341,6 +341,9 @@ input[type=submit]:hover {
     display: block;
     text-align: left;
   }
+  .navbar.responsive {
+    position: relative;
+  }
 
 }
 
