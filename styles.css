@@ -1,6 +1,6 @@
 body {
   background-color: #b7c5b6;
-    margin: 0%;
+    margin: 0;
   font-family: Georgia, serif;
 
 }
@@ -307,7 +307,7 @@ input[type=submit]:hover {
   overflow: hidden;
   background-color: white;  
   bottom: 0;
-  margin: 0;
+  margin-bottom: 0px;
   width: 100%;
   text-align: center;
   display: inline-block;
