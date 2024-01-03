@@ -215,10 +215,7 @@ body {
     flex: 100%;
     max-width: 100%;
   }
-   .navbar.responsive {
-    position: relative;
-    bottom: 0;
-  }
+  
 }
 @media screen and (max-width: 600px) {
   .text-block {
@@ -346,7 +343,12 @@ input[type=submit]:hover {
     text-align: left;
   }
 }
-
+@media screen and (max-width: 600px) {
+.navbar {
+    position: relative;
+    bottom: 0;
+  }
+}
 
 .fa {
   padding: 20px;
