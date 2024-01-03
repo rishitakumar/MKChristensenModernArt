@@ -341,9 +341,9 @@ input[type=submit]:hover {
     display: block;
     text-align: left;
   }
-  .navbar.responsive {
+  .navbar {
     position: relative;
-    padding: 200px 0;
+    padding: 500px 0;
 
 
   }
