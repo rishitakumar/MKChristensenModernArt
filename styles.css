@@ -313,6 +313,7 @@ input[type=submit]:hover {
   display: inline-block;
   left:0;
   position: relative; 
+  margin-top: 20px;
 }
 .navbar a {
   display: block;
