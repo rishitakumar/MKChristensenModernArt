@@ -343,6 +343,9 @@ input[type=submit]:hover {
   }
   .navbar.responsive {
     position: relative;
+    padding: 200px 0;
+
+
   }
 
 }
