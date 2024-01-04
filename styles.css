@@ -307,14 +307,13 @@ input[type=submit]:hover {
 .navbar {
   overflow: hidden;
   background-color: white;  
-  bottom: -600px;
   margin-bottom: 0px;
   width: 100%;
   text-align: center;
   display: inline-block;
   left:0;
   position: relative; 
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .navbar a {
   display: block;
